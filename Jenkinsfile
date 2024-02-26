@@ -1,28 +1,34 @@
 pipeline {
     agent any
+
     environment {
         PATH = "${env.PATH};C:\\Windows\\System32"
-    
     }
 
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', credentialsId: 'wondomen', url: 'https://github.com/wondomen/FarToCel.git'
+                script {
+                    // Use a cleaner syntax for Git checkout
+                    checkout([$class: 'GitSCM', branches: [[name: 'main']], userRemoteConfigs: [[credentialsId: 'wondomen', url: 'https://github.com/wondomen/FarToCel.git']]])
+                }
             }
         }
-        
+
         stage('Build') {
             steps {
+                // Use 'bat' directly without the need for a script block
                 bat 'mvn clean install'
             }
         }
-        
+
         stage('Test') {
             steps {
+                // Use 'bat' directly without the need for a script block
                 bat 'mvn test'
                 bat 'mvn jacoco:prepare-agent install jacoco:report'
             }
+            
             post {
                 success {
                     // Publish JUnit test results
