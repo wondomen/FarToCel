@@ -1,5 +1,4 @@
 package org.example;
-
 public class FahrToCel {
     public static float fahrToCel(float f) {
         float c = (float) ((f - 32) * 5 / 9.0);
