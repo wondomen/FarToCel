@@ -18,9 +18,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Use 'bat' directly without the need for a script block
-                echo 'Building the project...'
-                bat 'mvn clean install'
-                echo 'Build completed.'
+                bat 'mvn clean install -X'
             }
         }
 
