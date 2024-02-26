@@ -2,7 +2,6 @@ pipeline {
     agent any
 
     environment {
-        MAVEN_HOME = tool 'Maven' // Use the configured Maven installation named 'Maven'
         PATH = "${MAVEN_HOME}\\bin;${env.PATH};C:\\Windows\\System32"
     }
 
