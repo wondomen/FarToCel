@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', credentialsId: 'berhanu', url: 'https://github.com/wondomen/FarToCel.git'
+                git branch: 'main', credentialsId: 'wondomen', url: 'https://github.com/wondomen/FarToCel.git'
             }
         }
         
