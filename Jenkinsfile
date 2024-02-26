@@ -10,7 +10,7 @@ pipeline {
             steps {
                 script {
                     // Use a cleaner syntax for Git checkout
-                    checkout([$class: 'GitSCM', branches: [[name: 'main']], userRemoteConfigs: [[credentialsId: 'wondomen', url: 'https://github.com/wondomen/FarToCel.git']]])
+                    git branch: 'master', credentialsId: 'wondomen', url: 'https://github.com/wondomen/FarToCel.git'
                 }
             }
         }
