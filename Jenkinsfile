@@ -2,7 +2,8 @@ pipeline {
     agent any
 
     environment {
-        PATH = "${env.PATH};C:\\Windows\\System32"
+        MAVEN_HOME = tool 'Maven' // Use the configured Maven installation named 'Maven'
+        PATH = "${MAVEN_HOME}\\bin;${env.PATH};C:\\Windows\\System32"
     }
 
     stages {
@@ -18,15 +19,15 @@ pipeline {
         stage('Build') {
             steps {
                 // Use 'bat' directly without the need for a script block
-                bat 'mvn clean install'
+                bat './mvn clean install'
             }
         }
 
         stage('Test') {
             steps {
                 // Use 'bat' directly without the need for a script block
-                bat 'mvn test'
-                bat 'mvn jacoco:prepare-agent install jacoco:report'
+                bat './mvn test'
+                bat './mvn jacoco:prepare-agent install jacoco:report'
             }
             
             post {
