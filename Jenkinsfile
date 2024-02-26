@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        PATH = "${MAVEN_HOME}\\bin;${env.PATH};C:\\Windows\\System32"
+         PATH = "${env.PATH};C:\\Windows\\System32"
     }
 
     stages {
