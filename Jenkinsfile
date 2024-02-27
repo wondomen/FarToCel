@@ -5,7 +5,7 @@ pipeline {
          PATH = "${env.PATH};C:\\Windows\\System32"
     }
     tools {
-                     maven 'Maven' // Use the configured Maven installation named 'Maven'
+                     maven 'MAVEN_HOME' // Use the configured Maven installation named 'Maven'
                  }
 
     stages {
