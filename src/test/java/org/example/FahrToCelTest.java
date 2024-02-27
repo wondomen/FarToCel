@@ -1,8 +1,8 @@
 package org.example;
-import org.junit.Test;
-import static org.junit.Assert.assertEquals;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class FahrToCelTest {
+public class FahrToCelTest extends FahrToCel {
     @Test
     public void testFahrToCel() {
         assertEquals(0, FahrToCel.fahrToCel(32), 0.01);
