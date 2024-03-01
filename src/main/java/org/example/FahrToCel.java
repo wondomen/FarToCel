@@ -5,6 +5,10 @@ public class FahrToCel {
         return Math.round(c);
     }
     public static float kelvinToCel(float kel) {
+
         return (float) (kel - 273.15);
+    }
+    public static float kelvinToFar(float kel) {
+        return (float) ((kel - 273.15) * (9/5.0) + 32);
     }
 }

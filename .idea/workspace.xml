@@ -5,13 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d307faa6-f334-469f-a501-2b83e6b0e2d2" name="Changes" comment="first commit">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/FahrToCel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/FahrToCel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/FahrToCelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/FahrToCelTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/FahrToCel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/FahrToCel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sep1_exercise-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/sep1_exercise-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.example.FahrToCelTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.example.FahrToCelTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/org.example.FahrToCelTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/org.example.FahrToCelTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/FahrToCelTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/example/FahrToCelTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OPEN_IN_BROWSER" value="true" />
+    <option name="OUTPUT_DIRECTORY" value="D:\sep1_exercise\htmlReport" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -23,11 +35,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2cuVHxSgRtiktdBWVi6KXXEKaZa" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -37,9 +50,17 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.FahrToCelTest.executor": "Run",
+    "JUnit.FahrToCelTest.testKelvinToFar.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.FarToCel_Maven_Berhanu [clean].executor": "Run",
+    "Maven.FarToCel_Maven_Berhanu [compile].executor": "Run",
+    "Maven.FarToCel_Maven_Berhanu [install].executor": "Run",
+    "Maven.FarToCel_Maven_Berhanu [verify].executor": "Run",
+    "Maven.sep1_exercise [--builder].executor": "Run",
     "Maven.sep1_exercise [clean].executor": "Run",
     "Maven.sep1_exercise [compile].executor": "Run",
+    "Maven.sep1_exercise [install].executor": "Run",
+    "Maven.sep1_exercise [site].executor": "Run",
     "Maven.sep1_exercise [test].executor": "Run",
     "Maven.sep1_exercise [verify].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -67,11 +88,53 @@
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
-      <command value="mvn clean" />
-      <command value="mvn compile" />
+      <command value="mvn --builder" />
+      <command value="mvn site" />
       <command value="mvn test" />
+      <command value="mvn clean" />
+      <command value="mvn install" />
+      <command value="mvn compile" />
       <command value="mvn verify" />
     </option>
+  </component>
+  <component name="RunManager" selected="JUnit.FahrToCelTest.testKelvinToFar">
+    <configuration name="FahrToCelTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="sep1_exercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.FahrToCelTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FahrToCelTest.testKelvinToFar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sep1_exercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.FahrToCelTest" />
+      <option name="METHOD_NAME" value="testKelvinToFar" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FahrToCelTest.testKelvinToFar" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -88,7 +151,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708961369607</updated>
-      <workItem from="1708961370651" duration="9138000" />
+      <workItem from="1708961370651" duration="16570000" />
+      <workItem from="1709281636343" duration="9813000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -122,7 +186,55 @@
       <option name="project" value="LOCAL" />
       <updated>1708973056368</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1708973472482</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708973472482</updated>
+    </task>
+    <task id="LOCAL-00006" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1708973594929</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1708973594929</updated>
+    </task>
+    <task id="LOCAL-00007" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1708975998023</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1708975998023</updated>
+    </task>
+    <task id="LOCAL-00008" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1709020504251</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1709020504252</updated>
+    </task>
+    <task id="LOCAL-00009" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1709021742987</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1709021742987</updated>
+    </task>
+    <task id="LOCAL-00010" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1709022493905</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1709022493905</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,5 +243,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/sep1_exercise$FahrToCelTest.ic" NAME="FahrToCelTest Coverage Results" MODIFIED="1708988901935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.example.*</FILTER>
+    </SUITE>
   </component>
 </project>
