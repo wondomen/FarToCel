@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d307faa6-f334-469f-a501-2b83e6b0e2d2" name="Changes" comment="first commit KelToFar added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sep1_exercise-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/sep1_exercise-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.example.FahrToCelTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.example.FahrToCelTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/org.example.FahrToCelTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/org.example.FahrToCelTest.txt" afterDir="false" />
@@ -27,6 +25,7 @@
         <option value="Class" />
         <option value="JUnit3 Test Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Dockerfile" />
       </list>
     </option>
   </component>
@@ -86,10 +85,10 @@
     <option name="myCommands">
       <command value="mvn --builder" />
       <command value="mvn site" />
-      <command value="mvn test" />
-      <command value="mvn clean" />
       <command value="mvn install" />
+      <command value="mvn clean" />
       <command value="mvn compile" />
+      <command value="mvn test" />
       <command value="mvn verify" />
     </option>
   </component>
@@ -148,7 +147,7 @@
       <option name="presentableId" value="Default" />
       <updated>1708961369607</updated>
       <workItem from="1708961370651" duration="16570000" />
-      <workItem from="1709281636343" duration="11494000" />
+      <workItem from="1709281636343" duration="14112000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -238,7 +237,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709317631645</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="first commit KelToFar added">
+      <option name="closed" value="true" />
+      <created>1709319199034</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1709319199035</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
