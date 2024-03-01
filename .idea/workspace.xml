@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d307faa6-f334-469f-a501-2b83e6b0e2d2" name="Changes" comment="first commit">
+    <list default="true" id="d307faa6-f334-469f-a501-2b83e6b0e2d2" name="Changes" comment="first commit KelToFar added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/FahrToCel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/FahrToCel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/FahrToCelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/FahrToCelTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/FahrToCel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/FahrToCel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sep1_exercise-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/sep1_exercise-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.example.FahrToCelTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.example.FahrToCelTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/org.example.FahrToCelTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/org.example.FahrToCelTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/FahrToCelTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/example/FahrToCelTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +148,7 @@
       <option name="presentableId" value="Default" />
       <updated>1708961369607</updated>
       <workItem from="1708961370651" duration="16570000" />
-      <workItem from="1709281636343" duration="9813000" />
+      <workItem from="1709281636343" duration="11494000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -234,7 +230,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709022493905</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="first commit KelToFar added">
+      <option name="closed" value="true" />
+      <created>1709317631645</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1709317631645</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,7 +246,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="first commit KelToFar added" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit KelToFar added" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/sep1_exercise$FahrToCelTest.ic" NAME="FahrToCelTest Coverage Results" MODIFIED="1708988901935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
