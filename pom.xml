@@ -15,6 +15,7 @@
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
     <build>
+        <finalName>interconversions</finalName>
         <plugins>
             <plugin>
                 <artifactId>maven-clean-plugin</artifactId>
@@ -42,7 +43,14 @@
             </plugin>
             <plugin>
                 <artifactId>maven-jar-plugin</artifactId>
-                <version>3.0.2</version>
+                <version>3.3.0</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>org.example.FahrToCel</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
             </plugin>
             <plugin> <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>

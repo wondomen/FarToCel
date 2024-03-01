@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d307faa6-f334-469f-a501-2b83e6b0e2d2" name="Changes" comment="first commit KelToFar added">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/sep1_exercise-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/sep1_exercise-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/FahrToCel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/FahrToCel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sep1_exercise-1.0-SNAPSHOT.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.example.FahrToCelTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.example.FahrToCelTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/org.example.FahrToCelTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/org.example.FahrToCelTest.txt" afterDir="false" />
     </list>
@@ -33,6 +37,9 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -44,6 +51,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Docker.Dockerfile.executor": "Run",
     "JUnit.FahrToCelTest.executor": "Run",
     "JUnit.FahrToCelTest.testKelvinToFar.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
@@ -85,14 +93,14 @@
     <option name="myCommands">
       <command value="mvn --builder" />
       <command value="mvn site" />
-      <command value="mvn install" />
       <command value="mvn clean" />
+      <command value="mvn install" />
       <command value="mvn compile" />
       <command value="mvn test" />
       <command value="mvn verify" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FahrToCelTest.testKelvinToFar">
+  <component name="RunManager" selected="Docker.Dockerfile">
     <configuration name="FahrToCelTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="sep1_exercise" />
       <extension name="coverage">
@@ -125,8 +133,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.Dockerfile" />
         <item itemvalue="JUnit.FahrToCelTest.testKelvinToFar" />
       </list>
     </recent_temporary>
@@ -147,7 +164,7 @@
       <option name="presentableId" value="Default" />
       <updated>1708961369607</updated>
       <workItem from="1708961370651" duration="16570000" />
-      <workItem from="1709281636343" duration="14112000" />
+      <workItem from="1709281636343" duration="16222000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -245,7 +262,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709319199035</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="first commit KelToFar added">
+      <option name="closed" value="true" />
+      <created>1709321949637</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1709321949637</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
